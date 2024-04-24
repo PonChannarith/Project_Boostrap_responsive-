@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background-color: red;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+}
+.menu-bar .menu{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: gold;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.main .title{
+    display: flex;
+    justify-content: space-between;
+}
+.main .title p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.main .title span a{
+    padding: 10px;
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main figure {
+    width: 100%;
+    box-shadow: 4px 4px 6px rgb(140, 140, 140);
+}
+.main figure .img{
+   width: 100%;
+}
+.main figure .img img{
+    width: 100%;
+}
+.main figure .txt{
+    width: 100%;
+    background-color: aqua;
+    padding: 5px;
+}
+.main figure .txt .big{
+    font-size: 18px;
+    font-weight:bold ;
+    color: orange;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.main figure .txt .date{
+    font-weight: 500;
+    color: blue;
+}
+.main figure .txt .date i{
+    padding: 5px;
+}
+.main figure .txt .small{
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+footer{
+    width: 100%;
+    background-color: orangered;
+    padding: 15px;
+}
+footer h3{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer span{
+    font-size: 15px;
+    color: rgb(21, 21, 71);
+    font-weight: bold;
+    font-family: 'Hanuman';
+}
+footer span i{
+    font-size: 20px;
+}
+/* Medai repornsive */
+/* laptop */
+@media (max-width: 1399.98px) {
+}
+/* ipad pro */
+@media (max-width: 1199.98px) {
+
+}
+/* ipad */
+@media (max-width: 991.98px) {
+}
+/* Mobile phone */
+@media (max-width: 767.98px) {
+}
+/* Mobile phone */
+@media (max-width: 575.98px) {
+}
